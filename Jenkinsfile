@@ -10,7 +10,7 @@ pipeline {
                      	sh '''
                         /usr/local/bin/helm upgrade --install petclinic-app petclinic \
                             --set image.repository=nonotrifi/petclinic \
-                            --set image.tag=4 \
+                            --set image.tag=5 \
                             --debug
                     '''
             }           
