@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: nonotrifi/petclinic
-  tag: 4
+  tag: 5
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
